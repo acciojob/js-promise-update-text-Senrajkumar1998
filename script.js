@@ -2,7 +2,7 @@
 let promise=new promise((x)=>
 	{
 		setTimeout(()=>{
-			console.log(Hello, world!);
+			console.log("Hello, world!");
 		});
 	});
 console.log(promise);
